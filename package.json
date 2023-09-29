@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-typeorm-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.7.2",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "fastify-cors": "^6.1.0",
+    "fastify-helmet": "^7.1.0",
+    "fastify-static": "^4.7.0",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.2.2"
+  }
+}
