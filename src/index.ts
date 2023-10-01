@@ -1,7 +1,7 @@
 import fastify from "./server";
 import { myDataSource } from "./libs/app-data-source";
 
-// Load environment variables from .env file
+// Load environment variables from .env file0
 import { config } from 'dotenv';
 config();
 
